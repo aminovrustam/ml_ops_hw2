@@ -19,6 +19,7 @@ docker-compose up --build
 
 - Для загрузки файлов для скоринга используйте: **Streamlit UI**: http://localhost:8501
 - Для мониторинга: **Kafka UI**: http://localhost:8080
-- **Логи сервисов**: 
-  ```bash
+- **Логи сервисов**:
+ ```bash
 docker-compose logs <service_name>
+```
