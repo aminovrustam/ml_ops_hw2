@@ -1,4 +1,4 @@
-## Домашнее задание 2. Блок ML Ops
+# Домашнее задание 2. Блок ML Ops
 
 До начала сборки сервиса добавьте папку *train_data* в папку *fraud_detector* и загрузите в добавленную папку файл *train.csv* из соревнования --- https://www.kaggle.com/competitions/teta-ml-1-2025/data. Он необходим для работы энкодера.
 
@@ -10,7 +10,7 @@ cd fraud-detection-system
 
 (Обязательно установите файл train.csv в директорию fraud_detector/train_data❗)
 
-# Сборка и запуск всех сервисов
+### Сборка и запуск всех сервисов
 ```bash
 docker-compose up --build
 ```
